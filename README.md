@@ -59,3 +59,53 @@ print("Area of Circle:", circle.calculate_area())
 <img width="701" height="189" alt="image" src="https://github.com/user-attachments/assets/91d86cd7-06cc-4b12-8bb0-606d68395759" />
 
 ## Result
+the result has been excecuted successfully
+
+# 🐍 Python OOP: Encapsulation with Private Members
+
+## 🎯 AIM
+
+To implement **Encapsulation** in Python by defining a class `Rectangle` with **private member variables** `__length` and `__breadth`.
+
+---
+
+## 🧠 ALGORITHM
+
+1. **Define the Class**:
+   - Create a class `Rectangle` with two private attributes: `__length` and `__breadth`.
+
+2. **Initialize Variables**:
+   - Use the `__init__()` constructor to set initial values for `__length` and `__breadth`.
+
+3. **Print Values**:
+   - Display the private variables from within the class to demonstrate access.
+
+4. **Instantiate the Object**:
+   - Create an object of the `Rectangle` class to trigger the constructor.
+
+---
+
+## 💻 Program
+```
+class Rectangle:
+    def __init__(self, length, width):
+        # private variables
+        self.__length = length
+        self.__width = width
+
+    def display(self):
+        # accessing private variables within the class
+        print(self.__length)
+        print(self.__width)
+
+# create object
+rect = Rectangle(5, 3)
+
+# print values within the class
+rect.display()
+```
+## Output
+<img width="451" height="199" alt="image" src="https://github.com/user-attachments/assets/99132dc1-0501-4289-8a2d-75727ade67a9" />
+
+## Result
+Thus , the program has been executed successfully.
